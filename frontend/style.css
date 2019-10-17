@@ -1,0 +1,49 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+html{
+    color: white;
+    border: 0px;
+    padding: 0px;
+}
+
+.even {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal {
+    height: 120px;
+    width: 457px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    text-align: left;
+    padding: 10px;
+}
+
+.panel {
+    height: 27px;
+    width: 149px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more {
+    height: 20px;
+    width: 92px;
+    font-size: 9px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

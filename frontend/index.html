@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="551192543790-mfvprfq42601offfjn2vi4da00fg27i5.apps.googleusercontent.com">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="Https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color:black">
+        <audio controls="controls" autoplay="autoplay">
+                <source src="assets/clickin-space.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+    <div id="root">
+        	<center>
+                    <table>
+                        <tr>
+                            <h2 id="distance">500 000 000 000 000 000 000 000km</h2>
+                        </tr>
+                        <tr>
+                            <td id="shop"><table>
+                                <tr>
+                                    <img src="assets/miner.png" class="miner" value="MINER">
+                                </tr>
+                                <tr>
+                                    <div class="even" id="minerValue">123</div>
+                                </tr>
+                                <tr>
+                                    <img src="assets/refiner.png" class="refiner" value="REFINER">
+                                </tr>
+                                <tr>
+                                    <div class="even" id="refinerValue">123</div>
+                                </tr>
+                                <tr>
+                                    <img src="assets/shoveler.png" class="extractor" value="EXTRACTOR">
+                                </tr>
+                                <tr>
+                                    <div class="even" id="extractorValue">123</div>
+                                </tr>
+                                <tr>
+                                    <div class="moreShop">>more</div>
+                                </tr>
+                            </table></td>
+                            <td><table>
+                                <tr><td>
+                                    <img src="assets/rocket.png" class="ship" value="SHIP">
+                                </td></tr>
+                                <tr><td>
+                                    <img src="assets/earth.png" class="planet" value="PLANET">
+                                </tr></tr>
+                            </table></td>
+                            <td><table>
+                                <tr><td>
+                                    
+                                </td></tr>
+                                <tr><td>
+                                    
+                                </td></tr>
+                            </table></td>
+                        </tr>
+                        <tr><table><tr>
+                            <td><div class="panel">
+                                INFO
+                            </div></td>
+                            <td><div class="panel">
+                                STATS
+                            </div></td>
+                            <td><div class="panel">
+                                LOGIN
+                            <div></td>
+                        </td></table></tr>
+                        <tr>
+                            <td><div class="terminal">
+                                <div class="shipStats"></div>
+                            </div></td>
+                        </tr>
+                    </table>
+        
+            </center>
+        <img src="assets/ap.png" class="upAuto" value="AUTOPILOT">
+        <img src="assets/cp_rocket.png" class="upCPship" value="CP SHIP">
+        <img src="assets/cp_planet.png" class="upCPplanet" value="CP PLANET">
+        <input type="button" class="upMiner" value="UP MINER">
+        <input type="button" class="upRefiner" value="UP REFINER">
+        <input type="button" class="upExtractor" value="UP EXTRACTOR">
+        <div class="workerStats"></div>
+        <div class="frame"></div>
+	<a href="#" class="signOut">Sign out</a>
+    </div>
+    <div id="login">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="main.js" type="module"></script>
+
+    <script src="main.js" type="module"></script>
+    <script src="game/setup.js"></script>
+    <script src="game/input.js"></script>
+    <script src="game/logic.js"></script>
+    <script src="game/render.js"></script>
+    <script src="game/exit.js"></script>
+    <script src="game/login.js"></script>
+</body>
+</html>
